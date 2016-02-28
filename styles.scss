@@ -1,0 +1,199 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#search {
+    text-align: center;
+}
+#cover {
+    margin-top: unset;
+    margin-bottom: 10px;
+    .navbar {
+        border-radius: 0 0 4px 4px;
+        margin-bottom: unset;
+    }
+}
+#cover-photo {
+    background: rgba(0, 0, 0, 0) url("images/hogwarts_small.jpg") no-repeat scroll 50% 50% / 100% auto;
+    margin-top: unset;
+    margin-bottom: unset;
+    border-radius: unset;
+    @media (min-width: 769px) {
+        min-height: 314px;
+    }
+    @media (max-width: 768px) {
+        min-height: 190px;  
+    }
+}
+
+#top-bar {
+    background-color: #2B78E4;
+    background-image: none;
+    a {
+        color: #FFF;
+    }
+    .navbar-brand {
+        color: #FFF;
+    }
+    .form-group{
+        label {
+            color: #FFF;
+        }
+    }
+}
+#main-comment-form {
+    border: 1px solid black;
+}
+
+#main-comment-form-top {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #EEE;
+}
+
+#timeline {
+    padding-left: unset;
+    padding-right: unset;
+
+    .col-md-4 {
+        padding-left: unset;
+    }
+}
+
+#timeline-row, .remove-row-side-margins {
+    margin-right: unset;
+    margin-left: unset;
+}
+
+.comment-form-textarea {
+    margin: 5px;
+
+    textarea {
+        width: 100%;
+        height: 100px;
+        resize: none;
+        border: 1px solid black;
+        padding: 15px;
+    }
+}
+
+.comment-form-footer {
+    background-color: #EEE;
+    padding: 5px;
+}
+
+.dl-horizontal dt {
+    text-align: unset;
+}
+
+.profile-img {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #000;
+    float: left;
+    width: 160px;
+    height: 160px;
+    @media (min-width: 769px) {
+        margin: -125px 0 0;
+    }
+    @media (max-width: 768px) {
+        margin: -175px 0 0;
+    }
+}
+
+.profile-name {
+    color: #fff;
+    left: 190px;
+    margin: 50px 0 0;
+    position: absolute;
+}
+
+.navbar-right {
+    margin-right: unset;
+}
+
+.header-bg {
+    background-color: #EEE;
+    border-bottom: 1px solid #000;
+
+    .btn {
+        margin: -46px 0 0;
+    }
+}
+.no-textarea-resize {
+    resize: none;
+}
+.breathing-room {
+    margin: 30px 0 100px;
+}
+.basic-border {
+    border: 1px solid #000;
+    padding-left: unset;
+    padding-right: unset;
+    border-radius: unset;
+}
+
+.panel-heading {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    h2 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-heading-text {
+        padding: 6px;
+    }
+}
+
+.friend-pic {
+    height: 75px;
+    width: 75px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.pic-lg {
+    height: 100px;
+    width: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.harry {
+    background-image: url("images/harry_potter_small.jpg");
+}
+
+.generic-profile-pic {
+    background-image: url("images/user_silhouette_generic.gif");
+}
+
+.generic-pic-pic {
+    background-image: url("images/icon_photo_small.png");
+}
+
+.comment-padding {
+    padding: 10px;
+}
+
+.comment-footer {
+    background-color: #EEE;
+    margin: 0 -15px -15px;
+    padding: 10px 15px;
+    ul {
+        padding: unset;
+    }
+    ul li {
+        display: inline;
+        margin: 0 15px 0 0;
+    }
+}
+
+div.media:last-child {
+    margin-bottom: 20px;
+}
